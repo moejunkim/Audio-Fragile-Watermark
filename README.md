@@ -25,9 +25,6 @@ This repository implements a novel audio watermarking scheme designed to protect
 
 ## Repository Structure
 
-- **`ASIACCS_WTM__Copy_ (1).pdf`**  
-  The research paper describing the watermarking framework and evaluation methods.
-
 - **`watermark_via_model.py`**  
   Contains functions for generating a watermark, extracting audio features, predicting embedding parameters using a pre-trained model, and embedding the watermark into an audio file.
 
