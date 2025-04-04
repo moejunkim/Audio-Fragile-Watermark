@@ -1,10 +1,8 @@
-# WERM
-# Preventing Malicious Audio Transformations via WERM-based Watermarking
+# Preventing Malicious Audio Transformations via Watermarking
 
 ## Overview
 
-This repository implements a novel audio watermarking scheme designed to protect digital audio against malicious transformations, such as deepfakes. Our approach embeds a secure watermark into the audio’s spectral domain using Fast Fourier Transform (FFT) techniques. A key innovation is the Watermark Embedding Recommendation Model (WERM), which leverages a Random Forest classifier to predict optimal watermark embedding parameters. This ensures that under benign conditions the watermark remains imperceptible while deliberately degrading under tampering to signal potential manipulation.
-
+This repository implements a novel audio watermarking scheme designed to protect digital audio against malicious transformations, such as deepfakes. Our approach embeds a secure watermark into the audio’s spectral domain using Fast Fourier Transform (FFT) techniques.
 ## Features
 
 - **Secure Watermark Generation:**  
